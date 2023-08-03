@@ -1,0 +1,177 @@
+*, ::after, ::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 5%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:  #ffffff;
+    
+}
+
+.container{
+    width: 1060px;
+    /* height: 100vh; */
+    margin: 80px auto;
+    padding: 0 10% 0;
+}
+
+.container h1{
+    font-size: 45px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.container p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.466);
+    margin-bottom: 40px;
+}
+
+.img-header{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.Img{
+    position: relative;
+    background: white;
+    /* border: 5px dotted rgba(0, 0, 0, 0.181); */
+    margin-left: 20px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+
+
+.Img img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.btn-delete{
+    background: tomato;
+    width: 50px;
+    height: 50px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid white;
+    border-radius: 50%;
+    position: absolute;
+    left: 90px;
+    bottom: -20px;
+    cursor: pointer;
+
+}
+
+.btn-delete:hover{
+    background: #ff766a;
+}
+
+.bx-trash{
+    color: white;
+    cursor: pointer;
+}
+
+.sub-cont{
+    display: flex;
+    gap: 60px;
+    margin-bottom: 100px;
+}
+
+.select{
+    display: block;
+    padding: 15px 20px;
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.159);
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    margin: 20px 1px;
+    cursor: pointer;
+    outline: none;
+}
+
+.bx-chevron-right{
+    font-size: 30px;
+    cursor:default;
+}
+
+.flex{
+    display: flex;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.466);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.flex:hover{
+    transition: all 0.5s ease-in-out;
+    color: rgba(0, 0, 0, 0.655);
+}
+
+.select-option{
+    margin-top: 35px;
+}
+
+.form{
+    width: 100%;
+}
+
+.form h3{
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.form input{
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.096);
+    outline: none;
+    padding: 15px 0;
+    font-size: 25px;
+    color: black;
+    margin-bottom: 35px;
+}
+
+::placeholder {
+    color: rgba(0, 0, 0, 0.381);
+  }
+
+ #btn{
+    float: right;
+    padding: 20px 35px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background: #ea4c895b;
+    color: white;
+    font-size: 19px;
+    font-weight: 500;
+    /* cursor: pointer; */
+   
+ }
+
+.bxs-camera-plus{
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.349);
+    position: absolute;
+    left: 75px;
+    cursor: pointer;
+    top: 75px;
+}
+
+
+.Img input{
+    display: none;
+}
+
